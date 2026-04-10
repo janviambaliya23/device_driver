@@ -1,1 +1,0 @@
-savedcmd_/workspaces/device_driver/open_rel_fun/driver.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /workspaces/device_driver/open_rel_fun/driver.ko /workspaces/device_driver/open_rel_fun/driver.o /workspaces/device_driver/open_rel_fun/driver.mod.o

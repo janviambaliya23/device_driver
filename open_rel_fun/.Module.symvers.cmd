@@ -1,1 +1,0 @@
-savedcmd_/workspaces/device_driver/open_rel_fun/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /workspaces/device_driver/open_rel_fun/Module.symvers -T /workspaces/device_driver/open_rel_fun/modules.order -i Module.symvers -e 
