@@ -1,0 +1,23 @@
+👉 Just remember:
+
+1st----> cd /usr/src/linux-headers-$(uname -r)/
+2nd----> example:- jambaliya@39172--VISN--AHM:/usr/src/linux-headers-6.8.0-106-generic$------>  grep -rn "chrdev" 
+
+kernel headers → /usr/src/linux-headers-$(uname -r)
+
+////////////////////////////////////////////////////////////////////
+
+2. Learn Folder Meaning (Not Exact Path)
+
+--------------------------------------------------------------------|
+Folder		|	What it Contains                            |
+--------------------------------------------------------------------| 
+include/linux/	|	Header files (macros, APIs) ⭐		    |
+fs/		|	File system & char device code  	    |
+drivers/	|	Actual drivers				    |
+kernel/		|	Core kernel logic  			    |
+Documentation/	|	Explanations                                |
+---------------------------------------------------------------------
+
+
+
